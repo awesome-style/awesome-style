@@ -120,7 +120,11 @@ bower_components
 /coverage
 
 # production
-/build
+build
+dist
+.rpt2_cache
+storybook-static
+.cache
 
 # misc
 .DS_Store
@@ -145,3 +149,6 @@ logs
 psd
 thumb
 sketch
+
+# we use yarn
+package-lock.json
